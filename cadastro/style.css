@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    background-color: #fff;
+    padding-top: 100px;
+    display: flex;
+}
+
+.erro{
+    color: red;
+    position: absolute;
+    padding-bottom: 770px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.erro a{
+    color: #000;
+}
+
+.area-comercial{
+    background-color: #fff;
+    background-image: url(./img/background.png);
+    max-width: 600px;
+    height: 750px;
+    width: 100%;
+    box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3);
+    margin-top: 30px;
+}
+
+.area-comercial h1{
+    color: #FE8A00;
+    padding-top: 180px;
+    padding-left: 100px;
+    font-size: 3rem;
+}
+
+.area-comercial h2{
+    color: #FE8A00;
+    padding-left: 100px;
+    padding-top: 30px;
+    margin-right: 150px;
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
+/*=====AREA DO CADASTRO=====*/
+.titulo{
+    background: linear-gradient(90deg, rgb(255, 6, 0), rgb(254, 126, 0));
+    padding: 10px;
+    padding-top: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+.area-form{
+    background: linear-gradient(90deg, rgb(255, 6, 0), rgb(254, 126, 0));
+    max-width: 600px;
+    height: 750px;
+    width: 100%;
+    box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3);
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.cad-form{
+    padding: 0px;
+}
+
+.cad-item{
+    position: relative;
+}
+
+.cad-item label{
+    margin-left: 10px;
+}
+
+.cad-item i{
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    font-size: 3rem;
+    color: #fff;
+}
+
+.cad-item input{
+    display: block;
+    width: 60%;
+    padding: 25px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    margin-left: 120px;
+    outline: none;
+    font-size: 1.2rem;
+    box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3);
+}
+
+.cad-item input:hover{
+    border: 2px solid #FE8A00;
+}
+
+::-webkit-input-placeholder{
+    color: #FE8A00;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+
+.cad-item button{
+    background: linear-gradient(90deg, rgb(255, 6, 0), rgb(254, 126, 0));
+    color: #fff;
+    width: 50%;
+    height: 60px;
+    margin-left: 140px;
+    border-radius: 100px;
+    padding: 10px;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 18px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3);
+}
+
+.cad-item button:hover{
+    opacity: 0.8;
+}
+
+.whatsapp-suporte{
+    position: absolute;
+    margin-left: 1750px;
+    margin-top: 600px;
+    background-color: green;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3);
+}
+
+.whatsapp-suporte a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 20px;
+    font-size: 1rem;
+}
+
+.whatsapp-suporte:hover{
+    opacity: 0.8;
+}
+
+.whatsapp-suporte i{
+    font-size: 5rem;
+}

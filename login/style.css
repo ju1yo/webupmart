@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    background-color: #fff;
+    padding-top: 100px;
+    display: flex;
+}
+
+.erro{
+    color: red;
+    position: absolute;
+    padding-bottom: 700px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.erro a{
+    color: #000;
+}
+
+.area-login{
+    background-color: #fff;
+    background-image: url(./img/background.png);
+    max-width: 500px;
+    height: 600px;
+    width: 100%;
+    box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3);
+}
+
+.titulo{
+    padding-top: 50px;
+    color: #FE8A00;
+    text-align: center;
+}
+
+.login-form{
+    padding-top: 8px;
+}
+
+.login-item{
+    position: relative;
+}
+
+.login-item label{
+    display: inline-block;
+    color: #FE8A00;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.login-item i{
+    position: absolute;
+    left: 55px;
+    top: 20px;
+    font-size: 3rem;
+    color: #FE8A00;
+}
+
+.login-item input{
+    display: block;
+    width: 60%;
+    padding: 25px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    margin-left: 120px;
+    box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3);
+    outline: none;
+    font-size: 1.2rem;
+}
+
+.input-enviar{
+    background: linear-gradient(90deg, rgb(255, 6, 0), rgb(254, 126, 0));
+    width: 60%;
+    height: 60px;
+    margin-left: 120px;
+    border-radius: 100px;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    margin-top: 25px;
+    box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3);
+    color: #fff;
+}
+
+.login-item input:hover{
+    border: 2px solid #FE8A00;
+}
+
+.input-enviar:hover{
+    opacity: 0.8;
+}
+
+::-webkit-input-placeholder{
+    color: #FE8A00;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+
+.enviar-funcionario button{
+    background: #1F2393;
+    border-radius: 100px;
+    width: 60%;
+    height: 60px;
+    margin-left: 120px;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    margin-top: 20px;
+    box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3);
+    color: #fff;
+}
+
+.enviar-funcionario button:hover{
+    opacity: 0.8;
+}
+
+.enviar-item button{
+    background: linear-gradient(90deg, rgb(255, 6, 0), rgb(254, 126, 0));
+    width: 60%;
+    height: 60px;
+    margin-left: 120px;
+    border-radius: 100px;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    margin-top: 20px;
+    box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3);
+    color: #fff;
+}
+
+.enviar-item button:hover{
+    background: linear-gradient(90deg, rgb(255, 6, 0), rgb(254, 126, 0));
+    opacity: 0.8;
+}
+
+.whatsapp-suporte{
+    position: absolute;
+    margin-left: 1750px;
+    margin-top: 600px;
+    background-color: green;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3);
+}
+
+.whatsapp-suporte a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 20px;
+    font-size: 1rem;
+}
+
+.whatsapp-suporte:hover{
+    opacity: 0.8;
+}
+
+.whatsapp-suporte i{
+    font-size: 5rem;
+}

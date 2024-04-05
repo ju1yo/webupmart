@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    height: 100vh;
+}
+
+.lateral-menu{
+    width: 80px;
+    height: 100%;
+    background-color: #FE8A00;
+    padding: 40px 0 40px 0;
+    box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.lateral-menu.burger{
+    width: 300px;
+}
+
+.btn-burger{
+    width: 100%;
+    padding-left: 25px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.btn-burger i{
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.btn-burger span{
+    color: #fff;
+}
+
+ul{
+    height: 100%;
+    list-style-type: none;
+}
+
+ul li.ativo{
+    background-color: #FE8A00;
+    box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3);
+    color: #FE8A00;
+}
+
+.item-menu:hover{
+    transition: 0.2s;
+    background-color: #FE8A00;
+    box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3);
+}
+
+#item-perfil:hover{
+    background-color: #fff;
+    box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3);
+}
+
+#item-perfil a:hover{
+    color: #FE8A00;
+}
+
+.item-menu a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+
+.link-menu{
+    margin-left: 70px;
+    transition: 0.7s;
+    opacity: 0;
+}
+
+.lateral-menu.burger .link-menu{
+    margin-left: 40px;
+    opacity: 1;
+}
+
+.icon-menu i{
+    font-size: 30px;
+    margin-left: 20px;
+}

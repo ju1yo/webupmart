@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    background-color: #fff;
+    background-image: url(../img/backgroundinicio.png);
+}
+.titulo{
+    padding-top: 200px;
+}
+h1{
+text-align: center;
+color: #FE8A00;
+font-family: "Poppins", sans-serif;
+font-size: 3rem;
+}
+h3{
+    text-align: center;
+    color: #FE8A00;
+    font-family: "Poppins", sans-serif;
+    font-size: medium;
+}
+#linha1{
+    border-bottom: 2px solid #FE8A00;
+    width: 300px;
+    margin: 100px auto;
+}
+#linha2{
+    border-bottom: 2px solid #FE8A00;
+    width: 300px;
+    margin: 100px auto;
+}
+.gestao {
+    width:300px ;
+    height:500px ;
+    background-color: #FE8A00;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.historico{
+    width:300px ;
+    height:500px ;
+    background-color: #FE8A00;
+    border-radius: 10px;
+    margin-left: 35px;
+}
+.vendidos{
+    width: 300px ;
+    height:500px ;
+    background-color: #FE8A00;
+    border-radius: 10px;
+    margin-left: 35px;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.container div h2{
+    color: #fff;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    margin-top: 20px;
+}
+.container div p{
+    color: #fff;
+    text-align:  left;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    padding: 30px;
+    margin-bottom: -20px;
+    font-size: 0.8rem;
+}
+
+.container button{
+    color: #FE8A00;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 70px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.container button:hover{
+    background-color:#f9e0b0;
+
+}
+
+.container2 {
+    margin-top: 10px;
+    margin-left: 150px;
+    padding-bottom: 200px;
+}
+.container2 div{
+    border-bottom: #FE8A00 solid 2px;
+    width: 90%;
+    font-family: "Poppins", sans-serif;
+    height: 150px;
+    }
+
+.container2 div h2{
+    color: #FE8A00;
+    margin-top: 50px;
+}
+.container2 div p{
+    color: #FE8A00;
+    margin-right: 300px;
+}
+.container2 img{
+    margin-left: 1300px;
+    margin-top: -50px;
+}
